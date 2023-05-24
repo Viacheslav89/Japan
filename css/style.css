@@ -37,7 +37,7 @@ html {
 body {
   font-family: 'Lato';
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
@@ -104,4 +104,70 @@ body {
   background-position: center center;
   background-size: cover;
 }
+
+.intro__title {
+  width: 619px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  padding-top: 263px;
+  margin-bottom: 22px;
+}
+
+.intro__subtitle {
+  color:#ffffff;
+  width: 546px;
+  margin-bottom: 59px;
+}
+
+.intro__form--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro__input {
+  background-color: transparent;
+  background-image: url("../img/svg/icon-form.svg");
+  background-repeat: no-repeat;
+  background-position: left 4px;
+  background-size: 20px;
+  border: 0;
+  padding-bottom: 22px;
+  padding-left: 43px;
+  border-bottom: 2px solid #BFC0C5;
+  margin-right: 60px;
+  width: 297px;
+  color:#ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.intro__input::placeholder {
+  color:#ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.intro__btn--submit {
+  width: 171px;
+  height: 58px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: #1B7DFF;
+  border: 0;
+}
+
+.intro__btn--submit:hover,
+.intro__btn--submit:focus {
+  background-color: #0563e0;
+
+}
+
 /* intro style end */
