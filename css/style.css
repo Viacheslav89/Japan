@@ -181,7 +181,7 @@ img {
 
 
 
-/* benefits start */
+/* benefits style start */
 .benefits {
   margin-bottom: 131px;
 }
@@ -259,10 +259,10 @@ img {
   background-position: right center;
   transition: .2s all;
 }
-/* benefits end */
+/* benefits style end */
 
 
-/* places start */
+/* places style start */
 .places {
   margin-bottom: 131px;
 }
@@ -389,10 +389,10 @@ img {
   transform: scale(1.05);
   transition: .15s all;
 }
-/* places end */
+/* places style end */
 
 
-/* tours start */
+/* tours style start */
 .tours {
   margin-bottom: 139px;
 }
@@ -407,10 +407,6 @@ img {
 .tours__wrap--info {
   padding-left: 47px;
 }
-
-/* .tours__wrap--info1 {
-  grid-gap: 0 77px;
-} */
 
 .tours__title {
   font-weight: 500;
@@ -445,4 +441,122 @@ img {
   background-position: right center;
   transition: .2s all;
 }
-/* tours end */
+/* tours style end */
+
+
+
+/* top style start */
+.top {
+  margin-bottom: 144px;
+}
+
+.top__title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  margin-bottom: 54px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.top__title::after {
+  content: "";
+  position: absolute;
+  width: 253px;
+  height: 3px;
+  background-color: #006DFE;
+  bottom: 0;
+  left: 0;
+}
+
+.top__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.top__wrap--cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 57px;
+}
+
+.top__card--pic {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.top__img--footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+
+.top__img--title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.top__img--likes {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-right: 20px;
+  background-image: url("../img/svg/heard.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-left: auto;
+  margin-right: 14px;
+}
+
+.top__img--comments {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-right: 23px;
+  background-image: url("../img/svg/comments.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-right: 25px;
+}
+
+.top__desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 31px;
+}
+
+.top__link {
+  display: block;
+  width: 118px;
+  height: 42px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background-color: #1B7DFF;
+  border: 0;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 12px;
+  margin-top: auto;
+}
+
+.top__link:hover,
+.top__link:focus {
+  background-color: #0563e0;
+}
+
+/* top style end */
