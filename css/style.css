@@ -566,5 +566,29 @@ img {
 .top__link:focus {
   background-color: #0563e0;
 }
-
 /* top style end */
+
+
+/* video style start */
+.video {
+  width: 100%;
+}
+
+.video__wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.video__padding-hak {
+  padding-top: 56.25%;
+}
+
+.video__element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* video style end */
