@@ -390,3 +390,59 @@ img {
   transition: .15s all;
 }
 /* places end */
+
+
+/* tours start */
+.tours {
+  margin-bottom: 139px;
+}
+
+.tours__main-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 77px;
+  margin-bottom: 77px;
+}
+
+.tours__wrap--info {
+  padding-left: 47px;
+}
+
+/* .tours__wrap--info1 {
+  grid-gap: 0 77px;
+} */
+
+.tours__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 85px;
+  padding-top: 26px;
+}
+
+.tours__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+
+.tours__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #006DFE;
+  text-decoration: none;
+  padding-right: 59px;
+  background-image: url("../img/svg/blue-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+
+.tours__link:hover,
+.tours__link:focus {
+  background-position: right center;
+  transition: .2s all;
+}
+/* tours end */
