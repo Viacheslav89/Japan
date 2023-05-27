@@ -64,13 +64,21 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  padding-bottom: 20px;
+  transition: .1s linear;
+  z-index: 10;
+}
+
+.header__active {
+  background-color: #0E1D28;
+  transform: translateY(-25px);
 }
 
 .header__wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding-top: 56px;
 }
 
