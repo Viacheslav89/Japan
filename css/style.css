@@ -44,13 +44,15 @@ body {
 }
 
 .wrapper-center {
-  width: 1062px;
+  max-width: 1062px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .wrapper-center--full {
-  width: 1264px;
+  max-width: 1264px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 img {
@@ -123,7 +125,7 @@ img {
 }
 
 .intro__title {
-  width: 619px;
+  max-width: 619px;
   font-weight: 500;
   font-size: 50px;
   line-height: 60px;
@@ -134,7 +136,7 @@ img {
 
 .intro__subtitle {
   color:#ffffff;
-  width: 546px;
+  max-width: 546px;
   margin-bottom: 59px;
 }
 
@@ -223,9 +225,12 @@ img {
 }
 
 .benefits__item {
-  width: 317px;
+  max-width: 317px;
   margin-right: 55px;
   margin-bottom: 112px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .benefits__item:last-child {
@@ -234,6 +239,7 @@ img {
 
 .benefits_img {
   margin-bottom: 37px;
+  display: block;
 }
 
 .benefits__item--title {
@@ -260,6 +266,7 @@ img {
   background-image: url("../img/svg/blue-arrow.svg");
   background-repeat: no-repeat;
   background-position: 95% center;
+  margin-top: auto;
 }
 
 .benefits__lern--link:hover,
