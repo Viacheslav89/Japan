@@ -119,6 +119,15 @@ img {
   display: none;
 }
 
+
+.header__btn-burger {
+  display: none;
+}
+
+.btn--close {
+  display: none;
+}
+
 /* header style end */
 
 
@@ -390,6 +399,8 @@ img {
 
 .places__item--title {
   position: absolute;
+  left: 20px;
+  bottom: 20px;
   left: 20px;
   bottom: 20px;
   font-weight: 700;
