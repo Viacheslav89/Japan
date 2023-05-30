@@ -17,17 +17,25 @@
     const burgerItem = document.querySelector('.burger');
     const menu = document.querySelector('.header__nav');
     const menuCloseItem = document.querySelector('.btn--close');
+    const menuLinks = document.querySelectorAll('.header__item--link');
     burgerItem.addEventListener('click', () => {
         menu.classList.add('header__nav--active');
     });
     menuCloseItem.addEventListener('click', () => {
         menu.classList.remove('header__nav--active');
     });
+    if (window.innerWidth <= 767) {
+        for (let i = 0; i < menuLinks.length; i += 1) {
+            menuLinks[i].addEventListener('click', () => {
+                menu.classList.remove('header__nav--active');
+            });
+        }
+    }
 }());
 // burger menu end
 
 
-// Scroll to anchors strart
+// Scroll to anchors (навигация по сайту) strart 
 (function () {
 
     const smoothScroll = function (targetEl, duration) {
@@ -66,4 +74,3 @@
     };
     scrollTo();
 }());
-// Scroll to anchors end
